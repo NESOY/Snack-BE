@@ -1,6 +1,6 @@
 package com.snack.news.repository;
 
-import com.snack.news.domain.News;
+import com.snack.news.domain.news.News;
 import com.snack.news.fixture.NewsTestcase;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -3,8 +3,8 @@ package com.snack.news.controller;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.snack.news.domain.Topic;
-import com.snack.news.domain.TopicType;
+import com.snack.news.domain.topic.Topic;
+import com.snack.news.domain.topic.TopicType;
 import com.snack.news.dto.TopicDto;
 import com.snack.news.dto.WrappedResponse;
 import com.snack.news.repository.TopicRepository;

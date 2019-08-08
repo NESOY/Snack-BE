@@ -1,8 +1,7 @@
 package com.snack.news.fixture;
 
+import com.snack.news.domain.news.News;
 import org.junit.Before;
-
-import com.snack.news.domain.News;
 
 public abstract class NewsTestcase {
 	protected static final String TEST_TITLE = "Snack-Title";

@@ -1,10 +1,10 @@
 package com.snack.news.service;
 
-import com.snack.news.domain.Topic;
-import com.snack.news.domain.TopicType;
+import com.snack.news.domain.topic.Topic;
+import com.snack.news.domain.topic.TopicSorting;
+import com.snack.news.domain.topic.TopicType;
 import com.snack.news.dto.TopicDto;
 import com.snack.news.exception.TopicNotFoundException;
-import com.snack.news.strategy.TopicSorting;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

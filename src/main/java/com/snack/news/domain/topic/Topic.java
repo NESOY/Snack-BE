@@ -1,5 +1,6 @@
-package com.snack.news.domain;
+package com.snack.news.domain.topic;
 
+import com.snack.news.domain.common.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,7 @@ import java.util.Optional;
 @Getter
 @ToString
 @Entity
-public class Topic {
+public class Topic extends BaseTimeEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
